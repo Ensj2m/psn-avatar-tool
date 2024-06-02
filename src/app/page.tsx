@@ -1,3 +1,5 @@
+"use client";
+
 import Background from "@/components/containers/background-container";
 import FormContainer from "@/components/containers/form-container";
 
