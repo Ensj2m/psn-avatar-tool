@@ -28,7 +28,7 @@ export default function FormContainer() {
         <a
           className="text-white/50 font-mono flex justify-center items-center sm:text-xs text-[1px] sm:justify-end gap-[5px]"
           target="_blank"
-          href="github.com/alwalxed"
+          href="https://github.com/alwalxed"
         >
           <span>developed</span>
           <span>by</span>
