@@ -5,7 +5,7 @@ import Form from "../form";
 export default function FormContainer() {
   return (
     <main className="bg-black/90 backdrop-blur flex flex-col h-[90vh]  w-full md:w-6/12 absolute left-0 top-0 justify-start items-start pb-10 pt-14 px-10 sm:px-20 sm:py-20 sm:h-full md:py-10 md:px-10 lg:py-14 lg:px-14 xl:px-24 xl:py-24">
-      <div className="relative w-full h-full flex flex-col justify-between">
+      <div className="relative w-full h-full flex flex-col justify-between gap-6">
         <div className="w-full flex flex-col justify-start gap-14 sm:gap-14 h-full">
           <div className="flex flex-col gap-4 w-full ">
             <Image
@@ -25,6 +25,15 @@ export default function FormContainer() {
         </div>
 
         <Footer />
+        <a
+          className="text-white/50 font-mono flex justify-center items-center sm:text-xs text-[1px] sm:justify-end gap-[5px]"
+          target="_blank"
+          href="github.com/alwalxed"
+        >
+          <span>developed</span>
+          <span>by</span>
+          <span className="underline">awa</span>
+        </a>
       </div>
     </main>
   );
