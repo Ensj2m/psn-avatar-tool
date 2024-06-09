@@ -1,7 +1,7 @@
 "use client";
 
-import Background from "@/components/containers/background-container";
-import FormContainer from "@/components/containers/form-container";
+import Background from "@/components/container-background";
+import FormContainer from "@/components/container-form";
 
 export default function Home() {
   return (

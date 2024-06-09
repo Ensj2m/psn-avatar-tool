@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Footer from "../footer";
-import Form from "../form";
+import Form from "./form";
+import Footer from "./footer";
 
 export default function FormContainer() {
   return (
