@@ -26,13 +26,13 @@ export default function FormContainer() {
 
         <Footer />
         <a
-          className="text-white/50 font-mono flex justify-center items-center sm:text-xs text-[1px] sm:justify-end gap-[5px]"
+          className="text-white/70 font-mono flex justify-center items-center sm:text-xs text-[10px] sm:justify-end gap-[5px]"
           target="_blank"
           href="https://github.com/alwalxed"
         >
           <span>developed</span>
           <span>by</span>
-          <span className="underline">awa</span>
+          <span className="underline underline-offset-4">awa</span>
         </a>
       </div>
     </main>
